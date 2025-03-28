@@ -8,7 +8,7 @@ const jwtpassord="1234567890"
 const emailSchema=zod.string().email();
 const passwordSchema=zod.string().min(8);
 
-mongoose.connect("mongodb+srv://sandisingha:adrijasandipan@cluster007.ngqyg.mongodb.net/new_test");
+mongoose.connect("");
 
 const user=mongoose.model('user',{ name:String , username:String , password:String});
 
@@ -108,7 +108,7 @@ app.use((req,res,next)=>{
     }
     catch(err){
         res.json({
-            msg:"fuck off"
+            msg:"who r u"
          })
     }
 })

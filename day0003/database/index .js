@@ -2,7 +2,7 @@ const express=require("express");
 const mongoose=require("mongoose");
 const app=express();
 
-mongoose.connect("mongodb+srv://sandisingha:adrijasandipan@cluster007.ngqyg.mongodb.net/trialwww");
+mongoose.connect("");
 
 const user=mongoose.model('user', { name : String , email : String , password : String });
 

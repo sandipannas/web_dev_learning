@@ -45,7 +45,7 @@ app.get("/user",(req,res)=>{
         arr
     })
     }catch(err){
-        res.status(403).send("who r u motherfucker")
+        res.status(403).send("who r u")
     }
 
 })
