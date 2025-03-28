@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script></script>
+</head>
+<body>
+    <input oninput="debouncepD()" id="first_no" type = "text" placeholder = "Enter the First number"></input> <br></br>
+    <input oninput="debouncepD()" id="second_no" type = "text" placeholder = "Enter the second number"></input> <br></br>
+    <!-- <button id ="add" class="opp" onclick="populateDiv('+')"> add </button> -->
+
+    <div id="finalResult"></div><br></br>
+
+    <input id="principal" type = "text" placeholder = "Enter the principal amount"></input>
+    <input id="rate" type = "text" placeholder = "Enter the rate of interest"></input>
+    <input id="time" type = "text" placeholder = "Enter the time"></input><br></br>
+    <button onclick="cal('si')" >calculate simple interest</button>
+    <button onclick="cal('to')" >calculate total amount</button>
+
+    <div id="interest"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
