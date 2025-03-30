@@ -57,6 +57,7 @@ function make_todo(){
 function makeTodoFromArray(){
     const element_div=document.getElementById("container_for_todo");
     element_div.innerHTML="";
+    global_id=0;
     for(let i=0;i<todo_list.length;i++)
     {
              const parent_div=document.createElement("div");
